@@ -1,7 +1,5 @@
 # hasher
 
-## Description
-
 A cloudflare worker that hashes the users IP address and sends it back.
 
 ### But why?
