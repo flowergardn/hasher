@@ -1,0 +1,15 @@
+{
+    "name": "hasher",
+    "version": "1.0.0",
+    "description": "A Cloudflare worker that hashes the IP address of the request",
+    "main": "src/index.js",
+    "author": "Astrid",
+    "devDependencies": {
+        "prettier": "^1.17.0"
+    },
+    "dependencies": {
+        "@tsndr/cloudflare-worker-router": "^1.1.1",
+        "serverless-cloudflare-workers": "^1.2.0",
+        "sha3": "^2.1.4"
+    }
+}
