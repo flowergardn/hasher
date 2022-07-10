@@ -28,15 +28,26 @@ router.get('/', (req, res) => {
         <meta property="og:description" content="${desc}" />
         <meta name="description" content="${desc}" />
         <meta name="theme-color" content="#ad6edd">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap" rel="stylesheet"> 
     </head>
     <body>
     <style>
         body {
-            background-color: black;
+            /*background-color: black;*/
+            background-color: #323232;
         }
         h3 {
-            color: white;
+            /*color: white;*/
+            color: #ad6edd;
             margin-left: 0.5rem;
+            background: #292828;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            box-shadow:  -5px 5px 13px -6px rgba(0,0,0,.75);
+            width: fit-content;
+            font-family: 'Work Sans', sans-serif;
         }
     </style>
         <h3 class="hehe">  ${createHash('sha256')
